@@ -1,0 +1,6 @@
+[submodule "api"]
+	path = api
+	url = git@github.com:lukasbrabenec/docker-generator-api.git
+[submodule "client"]
+	path = client
+	url = git@github.com:lukasbrabenec/docker-generator-react.git
