@@ -19,7 +19,7 @@ services:
 
   nginx:
     build:
-        context: .
+        context: ..
         dockerfile: ./nginx/Dockerfile.prod
     depends_on:
       - api
