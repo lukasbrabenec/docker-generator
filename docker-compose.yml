@@ -47,7 +47,7 @@ services:
       - nginx
     ports:
       - "3000:3000"
-    volumes: 
+    volumes:
       - ./client:/usr/src/app
     working_dir: /usr/src/app
     command: ["npm", "start"]
